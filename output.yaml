@@ -1,0 +1,156 @@
+# Time: Thu Nov  8 17:57:16 2018
+# Notes: 
+- IpProtocol: 
+  CidrIp: 0.0.0.0/0
+  FromPort: (port
+  ToPort: start
+# Notes: rhnsat6.eq.edu
+- IpProtocol: tcp
+  CidrIp: 10.34.5.19/32
+  FromPort: 80
+  ToPort: 80
+# Notes: rhe.eq.edu
+- IpProtocol: tcp
+  CidrIp: 10.34.5.19/32
+  FromPort: 443
+  ToPort: 443
+# Notes: dd1.university
+- IpProtocol: ip
+  CidrIp: 10.34.5.236/32
+  FromPort: 22
+  ToPort: 22
+# Notes: dd1.university
+- IpProtocol: udp
+  CidrIp: 10.34.5.237/32
+  FromPort: 22
+  ToPort: 22
+# Notes: dd1.university
+- IpProtocol: tcp
+  CidrIp: 0.0.0.0/0
+  FromPort: 0
+  ToPort: 65535
+# Notes: legato2
+- IpProtocol: tcp
+  CidrIp: 10.34.9.8/31
+  FromPort: 7937
+  ToPort: 9936
+# Notes: legato2
+- IpProtocol: tcp
+  CidrIp: 10.34.9.8/31
+  FromPort: 10001
+  ToPort: 30000
+# Notes: dm.noc
+- IpProtocol: tcp
+  CidrIp: 10.35.2.33/32
+  FromPort: 22
+  ToPort: 22
+# Notes: dm.noc
+- IpProtocol: tcp
+  CidrIp: 10.35.2.33/32
+  FromPort: 3389
+  ToPort: 3389
+# Notes: 
+- IpProtocol: tcp
+  CidrIp: 10.35.2.33/32
+  FromPort: 8000
+  ToPort: 9999
+# Notes: 
+- IpProtocol: tcp
+  CidrIp: 10.34.5.52/32
+  FromPort: 139
+  ToPort: 139
+# Notes: no response
+- IpProtocol: 
+  CidrIp: 10.34.5.240/32
+  FromPort: 139
+  ToPort: 139
+# Notes: no response
+- IpProtocol: 
+  CidrIp: 10.34.5.240/32
+  FromPort: 445
+  ToPort: 445
+# Notes: no response
+- IpProtocol: 
+  CidrIp: 10.34.5.240/32
+  FromPort: 1024
+  ToPort: 5000
+# Notes: no response
+- IpProtocol: 
+  CidrIp: 10.34.5.240/32
+  FromPort: 49152
+  ToPort: 65535
+# Notes: no response
+- IpProtocol: tcp
+  CidrIp: 10.34.5.240/32
+  FromPort: 137
+  ToPort: 138
+# Notes: 
+- IpProtocol: tcp
+  CidrIp: 10.138.227.0/24
+  FromPort: 443
+  ToPort: 443
+# Notes: 
+- IpProtocol: tcp
+  CidrIp: 10.138.228.0/23
+  FromPort: 138
+  ToPort: 138
+# Notes: 
+- IpProtocol: -1
+  CidrIp: 10.138.227.0/24
+  FromPort: -1
+  ToPort: -1
+# Notes: 
+- IpProtocol: ip
+  CidrIp: 0.0.0.0/0
+  FromPort: 3457
+  ToPort: 3457
+# Notes: 
+- IpProtocol: -1
+  CidrIp: 0.0.0.0/0
+  FromPort: -1
+  ToPort: -1
+# Notes: 22
+- IpProtocol: -1
+  CidrIp: 10.35.2.33/32
+  FromPort: -1
+  ToPort: -1
+# Notes: 23
+- IpProtocol: udp
+  CidrIp: 10.34.5.240/32
+  FromPort: 0
+  ToPort: 65535
+# Notes: 24
+- IpProtocol: tcp
+  CidrIp: 10.34.5.240/32
+  FromPort: 0
+  ToPort: 65535
+# Notes: 25
+- IpProtocol: 
+  CidrIp: 10.34.5.240/32
+  FromPort: 49152
+  ToPort: 65535
+# Notes: 26
+- IpProtocol: 
+  CidrIp: 10.34.5.240/32
+  FromPort: 137
+  ToPort: 138
+# Notes: 27
+- IpProtocol: -1
+  SourceSecurityGroupId: sg-0021680738e72021f
+  FromPort: -1
+  ToPort: -1
+# Notes: 
+- IpProtocol: -1
+  SourceSecurityGroupId: sg-00647b254a7dfda64
+  FromPort: -1
+  ToPort: -1
+# Notes: 
+- IpProtocol: -1
+  SourceSecurityGroupId: sg-00cae68a9b3c4dc63
+  FromPort: -1
+  ToPort: -1
+# Notes: 
+- IpProtocol: -1
+  SourceSecurityGroupId: sg-01258b95543fc7834
+  FromPort: -1
+  ToPort: -1
